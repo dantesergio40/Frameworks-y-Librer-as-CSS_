@@ -1,0 +1,122 @@
+body{
+  background: url(../img/fotofondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+.logo{
+  margin-top: 10px;
+  width: 180px;
+  border-radius: 8px;
+}
+.enlaces{
+  margin-top: 10px;
+}
+.textologo{
+  color: white;
+}
+h4{
+  text-shadow: 1px 1px black;
+}
+.redessociales{
+  margin-bottom:  30px;
+  border-radius: 4px;
+}
+.foto{
+  width: 100%;
+}
+.foto3{
+  width: 100%;
+}
+.color{
+  background-color: white;
+}
+.fecha{
+  margin:0px;
+  padding-bottom: 2px;
+  border-radius:  10px;
+}
+.titulo2{
+  padding: 35px;
+}
+p {
+  padding: 5px;
+}
+.perfil{
+  padding: 10px;
+}
+.fototitulo{
+  margin: 10px;
+  width: 40%;
+}
+.fotoperfil{
+  margin: 10px;
+  width: 60%;
+}
+.comentario2{
+  padding: 10px;
+}
+
+@media (min-width: 992px){
+.textologo{
+  margin-top: -60px;
+  max-width: 70%;
+}
+.tituloinicial{
+  margin-left: 30px;
+}
+
+}
+
+@media (max-width: 992px) {
+.textologo{
+  margin-left: 10px;
+  margin-top:10px;
+}
+.enlaces{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 28px;
+}
+.titulo{
+   margin-bottom: 15px;
+}
+
+.comentario2{
+    padding: 15px;
+}
+
+}
+
+@media (max-width: 600px){
+
+.logo{
+    margin: 5px;
+    width: 140px;
+  }
+.enlaces{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 28px;
+  }
+.enlaces2{
+    width: 50px;
+    margin: 2px;
+    }
+.textologo{
+    margin-top: 0px;
+}
+h4{
+   font-size: 26px;
+}
+.fototitulo{
+   margin-top: 10px;
+   width: 100%;
+}
+.comentario2{
+   padding: 5px;
+}
+
+}

@@ -1,0 +1,77 @@
+
+.fondo{
+  background: url(../img/fotoportada.jpg);
+  background-repeat: no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.transparencia{
+  margin: 5px;
+  padding: 30px;
+  background:rgba(8, 45, 94, 0.5);
+}
+.header{
+  color: white;
+  text-align: right;
+}
+.buscador1{
+  padding: 20px;
+  background: white;
+  }
+.buscador{
+    margin-top: 20px;
+  }
+.buscar1{
+  padding-right: 0px;
+  }
+.buscar2{
+  padding-left: 0px;
+  }
+.navbar{
+    margin-top: 20px;
+  }
+.favoritos{
+  margin-top: 30px;
+}
+.foto{
+  max-width: 80px;
+  height: 60px;
+  margin: 20px;
+}
+.Historial{
+  margin-top: 30px;
+
+}
+.historial{
+
+  margin: 0px;
+}
+.foto2{
+  width: 100%;
+}
+p{
+  margin-top: 15px;
+}
+.cell{
+  margin: 10px;
+}
+.foto3{
+  width: 40px;
+}
+
+@media (max-width: 770px){
+
+.header{
+    text-align: center;
+  }
+.transparencia{
+    margin: 1px;
+    padding: 5px;
+  }
+
+.foto2{
+   width: 100%;
+}
+
+}

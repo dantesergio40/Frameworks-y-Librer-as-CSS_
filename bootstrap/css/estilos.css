@@ -1,0 +1,110 @@
+.blog-musica{
+  background-color:#ABB537 ;
+}
+header{
+  background-color:#21B4B6;
+}
+.logo{
+  margin: 2vw;
+}
+.logo-img{
+  width: 100px;
+}
+.img-social{
+  height: 40px;
+  margin-bottom: 20px;
+}
+.blog-musica1{
+  margin-top: 55px;
+}
+
+.redes-sociales{
+  margin-top: 90px;
+  margin-right:  80px;
+  margin-bottom: 20px
+  }
+h2{
+  text-shadow: 1px 1px 1px white;
+}
+p{
+  color: white;
+  font-size: 17.45px;
+  font-weight: bolder;
+}
+nav{
+  background-color:  rgba(8, 45, 94, 0.95);
+}
+.navbar{
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.a{
+  font-size: 18px;
+  font-weight: bolder;
+  color: yellow;
+}
+.container-fluid{
+ background-color: #126672 ;
+ width: 90%;
+ color: white;
+
+}
+.musica-column {
+  margin-top: 5px;
+  min-height: 330px;
+}
+.buscador-column{
+ padding: 0 auto;
+  margin-top: 5px;
+  min-height: 330px;
+  }
+.buscador{
+  margin: 10px;
+  padding: 10px;
+  background-color: #66943D;
+}
+
+.comentario{
+  padding: 10px;
+  margin: 10px;
+}
+
+input{
+  width: 80%;
+  border-radius: 8px;
+  color: black;
+}
+.buscar{
+  width: 80%;
+  text-align: left;
+  margin-left: 45px;
+}
+.list-group{
+  padding: 10px;
+}
+
+.img-musica{
+  height: 260px;
+  margin-top: 22px;
+  box-shadow:  10px 10px 10px black;
+}
+
+@media (max-width: 770px){
+
+.contenedor-redes{
+  text-align: center;
+}
+.blog-musica1{
+    margin-top: 15px;
+}
+.redes-sociales{
+    margin: 10px;
+    text-align: center;
+}
+.img-social{
+    width: 30px;
+    margin-top: 15px;
+}
+
+}
